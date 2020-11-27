@@ -26,3 +26,6 @@ if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_SOURCE_DIR})
 add_subdirectory(test)
 
 endif(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_SOURCE_DIR})
+
+set_target_properties(glm PROPERTIES FOLDER "Dependencies/Graphics/GLM")
+    
